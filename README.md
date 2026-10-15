@@ -1,63 +1,66 @@
-# Cloud & DevOps Roadmap
+# ☁️ Cloud & DevOps Engineering Roadmap
 
-## Roadmap Overview
+## 🎯 About This Roadmap
+This roadmap is designed to take you from the fundamentals of Cloud Computing to building real-world cloud solutions and modern DevOps workflows. 
 
-## About This Roadmap
+* **Phase 1 (Beginner):** The journey begins with essential foundations, including Networking, Linux, Bash Scripting, and Git & GitHub. This provides the technical skills required to understand and work with cloud environments effectively.
+* **Phase 2 (AWS Cloud):** After building a strong foundation, you will move into AWS. Starting with the **AWS Certified Cloud Practitioner** to understand core concepts, then progressing to the **AWS Certified Solutions Architect – Associate (SAA)** to learn how to design secure, scalable, highly available, and cost-effective cloud architectures.
+* **Phase 3 (DevOps):** Once you have solid AWS knowledge, the roadmap continues into DevOps. You will cover industry-standard tools like Docker, GitHub Actions, CI/CD, Terraform, and Ansible to automate deployments, manage infrastructure, and build modern cloud-native workflows.
+* **Phase 4 (Projects):** Throughout the roadmap, the focus is not only on certifications but also on practical learning. You will build AWS architectures, automate infrastructure, and create portfolio-ready real-world cloud solutions.
 
-This roadmap is designed to take you from the fundamentals of Cloud Computing to building real-world cloud solutions and modern DevOps workflows.
-
-The journey begins with essential foundations, including **Networking, Linux, Bash Scripting, and Git & GitHub**, providing the technical skills required to understand and work with cloud environments effectively.
-
-After building a strong foundation, you will move into **AWS Cloud**, starting with **AWS Certified Cloud Practitioner** to understand core cloud concepts and AWS services, then progressing to **AWS Certified Solutions Architect – Associate (SAA)** where you will learn how to design secure, scalable, highly available, and cost-effective cloud architectures.
-
-Once you have developed solid AWS knowledge and hands-on experience, the roadmap continues into **DevOps**, covering industry-standard tools and practices such as **Docker, GitHub Actions, CI/CD, Terraform, and Ansible**. These technologies will help you automate deployments, manage infrastructure, and build modern cloud-native workflows.
-
-Throughout the roadmap, the focus is not only on certifications but also on practical learning through labs, projects, and real-world scenarios. By the end of this journey, you should be able to design cloud architectures, deploy applications, automate infrastructure, and build production-ready cloud solutions.
-
-The estimated completion time for this roadmap is approximately **6–10 months**, depending on your background, study pace, consistency, and hands-on practice.
-
-## Additional Resources
-
-The learning materials provided in each section are the recommended primary resources for this roadmap. However, everyone learns differently, and some topics may be easier to understand from different instructors or learning styles.
-
-If a particular video, playlist, or explanation is not clear, feel free to explore the **Additional Resources** section available in each page for alternative learning materials and explanations.
-
-For learners who prefer studying in English, additional English-language resources can be found under **Additional Resources (English)**. Those looking for more structured and in-depth training can also explore the **Udemy Courses (Paid)** section.
-
-The goal is to understand the concepts and gain practical skills, not to follow a single resource exclusively.
+> **⏱️ Estimated Completion Time:** Approximately **6–10 months**, depending on your background, study pace, consistency, and hands-on practice.
 
 ---
 
-## Roadmap Structure
+## 📂 How to Navigate This Repository (Documentation & Usage)
+This repository is structured into distinct progressive folders. Inside each folder, you will find detailed **Markdown (.md) documents** that break down the learning path.
 
-### 📘 Beginner
+* **Weekly Checklists (`[ ]`):** The roadmap is divided into structured weeks. You can use the checkboxes directly on GitHub to track your progress step-by-step.
+* **Separated Labs & Tasks:** Theoretical knowledge is backed by hands-on labs, placed distinctly in a `Tasks` section at the end of each module to ensure practical application.
+* **Clickable Resources:** All courses, playlists, and documentation are linked directly within the files for quick access.
 
+---
+
+## 💡 Alternative Resources & Learning Approach
+The learning materials provided in each section are the recommended primary resources for this roadmap. However, everyone learns differently, and some topics may be easier to understand through different instructors, teaching styles, or learning approaches.
+
+* If a particular video, playlist, or explanation is not clear, feel free to explore the **Alternative Resources** section available in each page. 
+* For learners who prefer studying in English, alternative English-language resources can be found under **Alternative Resources (English)**. 
+* Those looking for more structured and in-depth training can also explore the **Udemy Courses (Paid)** section.
+
+*The ultimate goal is to understand the concepts, build practical skills, and choose the learning resources that work best for you—not to follow a single resource exclusively.*
+
+---
+
+## 🗺️ Roadmap Structure & Links
+
+### [📁 01-Beginner (Basics)](./01-Beginner/basics.md)
 - Network Fundamentals
 - Linux
 - Bash Scripting
 - Git & GitHub
-- Basics Recap & Extra
-
-### ☁️ Intermediate
-
-- AWS Certified Cloud Practitioner (CLF-C02)
-- AWS Certified Solutions Architect – Associate (SAA-C03)
 - Hands-on Labs
-- Architecture Design Practice
 
-### 🚀 Advanced
+### 📁 [02-Intermediate (AWS)](./02-Intermediate/)
+- AWS Certified Cloud Practitioner
+- AWS Certified Solutions Architect – Associate (SAA)
+- Hands-on Labs & Architecture Practice
 
+### [📁 03-Advanced (DevOps)](./03-Advanced/devops.md)
 - Docker
-- CI/CD
 - GitHub Actions
-- Ansible
 - Terraform
+- Ansible
 - Hands-on Labs
 
----
+### [📁 04-Hands-On](./04-Hands-On/)
+*Practical tasks and sequential labs mapped to all roadmap levels.*
+- 01-Beginner Labs
+- 02-Intermediate Labs (AWS)
+- 03-Advanced Labs (DevOps)
 
-## Navigate Through The Roadmap
-
-- 📘 [Beginner](./1-Beginner)
-- ☁️ [Intermediate](./2-Intermediate)
-- 🚀 [Advanced](./3-Advanced)
+### 📁 04-Projects *(Coming Soon)*
+- AWS Projects
+- Automation Projects
+- Real-World Cloud Solutions
+- Portfolio Projects
